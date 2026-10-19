@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+<h1>Hi, Welcome to WVC</h1>  
+<p>Log in first to get the best use out of this site: </p>
+    <form action="">
+        <p>Username:
+            <input type="test" name="user" maxlength="10" placeholder="Enter your username">
+        </p>
+        <p>Password:
+            <input type="password" name="password" size="15" maxlength="30" placeholder="Enter your password">
+        </p>
+        <form action="https://www.example.com/add.php">
+             <button>Submit</button>
+            <input type="hidden" name="Submit" value="Submit" />
+        </form>
+    </form>
+<img src="images/college.jpg"
+    alt="College campus"
+    height="600"
+    width="450">
+<h2>About the school</h2>
+<p>We are the best at what we do! From the arts to the sciences,
+we've got you covered. Here you will find all the information you need:</p>
+<ul>
+    <li>Course list</li>
+    <li>How to sign up for classes</li>
+    <li>Resource centers</li>
+    <li>Faculty list</li>
+    <li>Campus map</li>
+</ul>
+<br />
+<br />
+<p>Still need more information? No worries! Feel free to use our search bar below! </p>
+<form action="https://www.example.com/bookings/" method="post">
+        <input type="search" name="search" /><br /><br />
+        <input type="submit" name="search" /><br /><br />
+</form>
+<h2>Join our Mailing list! </h2>
+<p>If you join our mailing list, you will get exclusive information
+regarding upcoming events, assignments, and well... more events!
+Be the first to be “in the know”.  We promise not to spam you. <strong>Really.</strong> 
+</p>
+<form action="https://www.example.com/upload.php" method="post">
+    <p>Subscribe:</p>
+        <input type="email" name="email" /><br />
+        <input type="submit" name="Subscribe" value="Subscribe" />
+</form>
+<h3>What kind of music applications do you like using while studying or on the go?  </h3>
+<form action="https://www.example.com/profile.php">
+    <p>You can choose more than one music streaming application: 
+        <input type="checkbox" name="genre"  value ="spotify" checked="checked" />Spotify
+        <input type="checkbox" name="genre"  value ="itunes"/>iTunes
+        <input type="checkbox" name="genre"  value ="lastfm"/>LastFm
+    </p>
+</form>
+<h3>Favorite style of music? </h3>
+<form action="https://www.example.com/profile.php">
+    <p>Please select your favorite genre:
+        <input type="radio" name="genre"  value ="rock" checked="checked" />Rock
+        <input type="radio" name="genre"  value ="pop"/>Pop
+        <input type="radio" name="genre"  value ="juzz"/>Juzz
+    </p>
+</form>
+<h3>Are you a MacOS, Windows, or Linux user? </h3>
+<form action="https://www.example.com/profile.php">
+    <p>As you browse the internet, which kind of computer OS are you using?  </p>
+    <select name="OS:">
+        <option value="windows">Windows</option>
+        <option value="macos" >MacOS</option>
+        <option value="linux">Linux</option>
+    </select>
+</form>
+<h3>Add an image for your profile!</h3>
+<img src="images/student.jpg"
+     alt="student"
+     height="600"
+     width="600">
+<form action="https://www.example.com/upload.php" method="post">
+    <p>Upload your imaget:</p>
+        <input type="file" name="image" /><br />
+        <input type="submit" name="Upload" />
+</form>
+<p>Contact?</p> 
+<br />
+<fieldset>
+    <legend>Please use the form below:</legend>
+    <label>First Name<br><input type="first_name" name="First Name"></label> <br>
+    <label>Last Name<br><input type="last_name" name="Last Name"></label> <br>
+    <label>Email<br><input type="text" name="email"></label> <br>
+</fieldset>
+<br />
+<form action="https://www.example.com/bookings/" method="post">
+    <p>Set a date when you can visit the campus!</p>
+        <input type="date" name="depart" /><br />
+        <input type="submit" name="Submit" /><br /><br />        
+</form>
+</body>
+</html>
